@@ -6,7 +6,7 @@ public class Counter {
         for (int i = start; i <= finish; i++) {
             sum = sum + i;
         }
-        return sum;
+        return  sum;
     }
 
     public static void main(String[] args) {
