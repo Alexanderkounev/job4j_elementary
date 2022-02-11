@@ -3,7 +3,7 @@ package ru.job4j.array;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class FindLoopTest {
+public class FindLoopTest  {
     @Test
     public void whenArrayHas5Then0() {
         int[] data = {5, 4, 3, 2};
