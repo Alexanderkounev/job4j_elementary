@@ -3,7 +3,7 @@ package ru.job4j.array;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class SortSelectedTest {
+public class SortSelectedTest  {
     @Test
     public void whenSortArrayOf5elements() {
         int[] data = new int[] {3, 4, 1, 2, 5};
