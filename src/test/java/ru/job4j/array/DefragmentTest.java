@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class DefragmentTest {
     @Test
-    public void singleFirstNull() {
+    public void singleFirstNull()  {
         String[] input = {null, "I"};
         String[] result = Defragment.compress(input);
         String[] expected = {"I", null};
