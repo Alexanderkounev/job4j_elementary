@@ -3,7 +3,7 @@ package ru.job4j.condition;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class MaxTest {
+public class MaxTest  {
     @Test
     public void whenMax1To2Then2() {
         int left = 1;
