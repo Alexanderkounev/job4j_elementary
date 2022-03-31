@@ -30,6 +30,14 @@ public class PointTest {
         double dist = a.distance(b);
         double expected = 351.01;
         Assert.assertEquals(expected, dist, 0.01);
+    }
 
+    @Test
+    public void when111333211to222666333then351dot01() {
+        Point a = new Point(111, 333, 211);
+        Point b = new Point(222, 666, 333);
+        double dist = a.distance3d(b);
+        double expected = 371.61;
+        Assert.assertEquals(expected, dist, 0.01);
     }
 }
