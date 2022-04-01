@@ -53,4 +53,12 @@ public class MaxTest  {
         int expected = 34;
         Assert.assertEquals(expected, maxmax);
     }
+
+    @Test
+    public void whenMax12To23To32To25Then32() {
+        int maxmax = Max.max(12, 23, 32, 25);
+        int expected = 32;
+        Assert.assertEquals(expected, maxmax);
+    }
+
 }
